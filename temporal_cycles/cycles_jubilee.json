@@ -1,0 +1,56 @@
+{
+  "title": "Jubilee Cycle — 49/50 Year Harmonic Series",
+  "description": "The biblical Jubilee: after 7×7=49 years, the 50th year is proclaimed as Jubilee — a year of release, return, and restoration. The tension between 49 (7²) and 50 (2×25) creates a harmonic ratio of 50:49 — the smallest superparticular ratio, producing the 'syntonic comma' in music theory.",
+  "jubilee_structure": {
+    "sabbatical_cycles": 7,
+    "years_per_sabbatical": 7,
+    "jubilee_year": 50,
+    "note": "7×7=49, then +1=50. The extra year is the 'overtone' beyond the square."
+  },
+  "harmonic_analysis": {
+    "ratio": "50:49",
+    "decimal": 1.02041,
+    "musical_name": "Near-unison — the 'syntonic comma' zone",
+    "difference": 1,
+    "significance": "The smallest distance between harmonically significant numbers. The Jubilee 'almost' closes the cycle at 49 but adds one more — a slight detuning that prevents stagnation."
+  },
+  "cycles": [
+    {
+      "cycle_number": 1, "years": "1-49",  "harmonic": 1,
+      "frequency": 1.0,  "note": "First sabbatical cycle — foundation"
+    },
+    {
+      "cycle_number": 2, "years": "50-98", "harmonic": 2,
+      "frequency": 2.0,  "note": "Second Jubilee cycle — octave"
+    },
+    {
+      "cycle_number": 3, "years": "99-147","harmonic": 3,
+      "frequency": 3.0,  "note": "Third — perfect fifth register"
+    },
+    {
+      "cycle_number": 4, "years": "148-196","harmonic": 4,
+      "frequency": 4.0,  "note": "Fourth — double octave"
+    },
+    {
+      "cycle_number": 5, "years": "197-245","harmonic": 5,
+      "frequency": 5.0,  "note": "Fifth — major third zone"
+    },
+    {
+      "cycle_number": 6, "years": "246-294","harmonic": 6,
+      "frequency": 6.0,  "note": "Sixth — perfect fifth (3rd octave)"
+    },
+    {
+      "cycle_number": 7, "years": "295-343","harmonic": 7,
+      "frequency": 7.0,  "note": "Seventh — 7×7 = 49 = 7² (meta-jubilee)"
+    }
+  ],
+  "seven_by_seven_harmonics": {
+    "values": [49, 98, 147, 196, 245, 294, 343],
+    "note": "7×7 = 49; 7×14=98; ... 7×49=343=7³ — cube resonance at 7th Jubilee"
+  },
+  "gematria_connections": {
+    "49": "7² = 7×7; 49 = מ+ט (Mem+Tet)",
+    "50": "50 = נ (Nun) — the 14th letter, gates of understanding",
+    "note": "The 50th gate (Sha'ar HaNun) is the highest gate of Binah (Understanding)"
+  }
+}

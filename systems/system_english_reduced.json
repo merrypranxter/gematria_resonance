@@ -1,0 +1,32 @@
+{
+  "system": "English Reduced Gematria",
+  "description": "Digital root reduction of ordinal values. Each letter A=1..Z=26 is reduced by summing its digits: A=1, B=2, ..., I=9, then J=1+0=1, K=1+1=2, ..., R=1+8=9, then S=1+9=10→1, ..., Z=2+6=8. Three groups of 9 letters map to digits 1-9, with the 26th letter (Z) completing at 8 (not 9, since 26 letters don't complete a 9-cycle).",
+  "groups": [
+    { "range": "A-I", "values": "1-9", "letters": "ABCDEFGHI" },
+    { "range": "J-R", "values": "1-9", "letters": "JKLMNOPQR" },
+    { "range": "S-Z", "values": "1-8", "letters": "STUVWXYZ", "note": "Only 8 letters, cycle incomplete" }
+  ],
+  "letters": [
+    { "letter": "A", "ordinal": 1,  "reduced": 1 }, { "letter": "B", "ordinal": 2,  "reduced": 2 },
+    { "letter": "C", "ordinal": 3,  "reduced": 3 }, { "letter": "D", "ordinal": 4,  "reduced": 4 },
+    { "letter": "E", "ordinal": 5,  "reduced": 5 }, { "letter": "F", "ordinal": 6,  "reduced": 6 },
+    { "letter": "G", "ordinal": 7,  "reduced": 7 }, { "letter": "H", "ordinal": 8,  "reduced": 8 },
+    { "letter": "I", "ordinal": 9,  "reduced": 9 }, { "letter": "J", "ordinal": 10, "reduced": 1 },
+    { "letter": "K", "ordinal": 11, "reduced": 2 }, { "letter": "L", "ordinal": 12, "reduced": 3 },
+    { "letter": "M", "ordinal": 13, "reduced": 4 }, { "letter": "N", "ordinal": 14, "reduced": 5 },
+    { "letter": "O", "ordinal": 15, "reduced": 6 }, { "letter": "P", "ordinal": 16, "reduced": 7 },
+    { "letter": "Q", "ordinal": 17, "reduced": 8 }, { "letter": "R", "ordinal": 18, "reduced": 9 },
+    { "letter": "S", "ordinal": 19, "reduced": 1 }, { "letter": "T", "ordinal": 20, "reduced": 2 },
+    { "letter": "U", "ordinal": 21, "reduced": 3 }, { "letter": "V", "ordinal": 22, "reduced": 4 },
+    { "letter": "W", "ordinal": 23, "reduced": 5 }, { "letter": "X", "ordinal": 24, "reduced": 6 },
+    { "letter": "Y", "ordinal": 25, "reduced": 7 }, { "letter": "Z", "ordinal": 26, "reduced": 8 }
+  ],
+  "notable_words": {
+    "GOD":    { "reduced": 8, "note": "G(7)+O(6)+D(4)=17→8" },
+    "LOVE":   { "reduced": 9, "note": "L(3)+O(6)+V(4)+E(5)=18→9; LOVE=COMPLETION" },
+    "LIFE":   { "reduced": 5, "note": "L(3)+I(9)+F(6)+E(5)=23→5" },
+    "TRUTH":  { "reduced": 6, "note": "T(2)+R(9)+U(3)+T(2)+H(8)=24→6" },
+    "JESUS":  { "reduced": 2, "note": "J(1)+E(5)+S(1)+U(3)+S(1)=11→2" },
+    "LIGHT":  { "reduced": 2, "note": "L(3)+I(9)+G(7)+H(8)+T(2)=29→11→2" }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "title": "Harmonic Intervals — Frequency Ratios and Visual Geometry",
+  "description": "Standard musical intervals expressed as frequency ratios, with tolerance ranges for near-matches in gematria pairs, and the corresponding visual geometry they produce in Lissajous/interference patterns.",
+  "intervals": [
+    {
+      "name": "Unison",
+      "ratio": "1:1",
+      "decimal": 1.000,
+      "tolerance": 0.01,
+      "visual": "Circular rings — no angular variation. Perfect resonance.",
+      "petal_count": 0,
+      "color_suggestion": "white",
+      "gematria_example": "Any word paired with itself"
+    },
+    {
+      "name": "Octave",
+      "ratio": "2:1",
+      "decimal": 2.000,
+      "tolerance": 0.05,
+      "visual": "Figure-8 or two-lobed pattern. Doubling symmetry.",
+      "petal_count": 2,
+      "color_suggestion": "deep_blue",
+      "gematria_example": "AHAVAH(13) : HOD(15) ≈ not quite; YESOD(80) : AHAVAH(13) × 6 = 78 ≈ near"
+    },
+    {
+      "name": "Perfect Fifth",
+      "ratio": "3:2",
+      "decimal": 1.500,
+      "tolerance": 0.08,
+      "visual": "Three-lobed figure — trefoil. Classic Lissajous at 3:2.",
+      "petal_count": 3,
+      "color_suggestion": "deep_purple",
+      "gematria_example": "ELOHIM(86) : YHWH(26) ≈ 3.31 (near 3rd harmonic)"
+    },
+    {
+      "name": "Perfect Fourth",
+      "ratio": "4:3",
+      "decimal": 1.333,
+      "tolerance": 0.06,
+      "visual": "Cross/box pattern. Four petals with right angles.",
+      "petal_count": 4,
+      "color_suggestion": "teal"
+    },
+    {
+      "name": "Major Third",
+      "ratio": "5:4",
+      "decimal": 1.250,
+      "tolerance": 0.06,
+      "visual": "Five-petaled rose. Pentagonal geometry.",
+      "petal_count": 5,
+      "color_suggestion": "amber"
+    },
+    {
+      "name": "Minor Third",
+      "ratio": "6:5",
+      "decimal": 1.200,
+      "tolerance": 0.06,
+      "visual": "Six-petaled figure. Hexagonal. Flower of Life adjacent.",
+      "petal_count": 6,
+      "color_suggestion": "orange"
+    },
+    {
+      "name": "Major Sixth",
+      "ratio": "5:3",
+      "decimal": 1.667,
+      "tolerance": 0.07,
+      "visual": "Complex 5-vs-3 interference. Pentatonic rose.",
+      "petal_count": 8,
+      "color_suggestion": "gold"
+    },
+    {
+      "name": "Minor Seventh",
+      "ratio": "7:4",
+      "decimal": 1.750,
+      "tolerance": 0.07,
+      "visual": "Seven-pointed star. Heptagonal. 7-day resonance.",
+      "petal_count": 7,
+      "color_suggestion": "indigo",
+      "gematria_example": "7 days = 7 words of Genesis 1:1"
+    },
+    {
+      "name": "Major Second",
+      "ratio": "9:8",
+      "decimal": 1.125,
+      "tolerance": 0.04,
+      "visual": "Nine-lobed pattern. Digital root resonance.",
+      "petal_count": 9,
+      "color_suggestion": "crimson"
+    },
+    {
+      "name": "Tritone",
+      "ratio": "√2:1",
+      "decimal": 1.4142,
+      "tolerance": 0.04,
+      "visual": "Irrational ratio → quasiperiodic, never closes. Spiraling.",
+      "petal_count": "infinite/quasiperiodic",
+      "color_suggestion": "gray"
+    }
+  ]
+}

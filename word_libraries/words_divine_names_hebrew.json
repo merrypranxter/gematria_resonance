@@ -1,0 +1,75 @@
+{
+  "title": "Hebrew Divine Names — Gematria Values and Significance",
+  "system": "Mispar Hechrechi (Hebrew Standard)",
+  "names": [
+    {
+      "hebrew": "יהוה",
+      "transliteration": "YHWH",
+      "pronunciation": "Adonai (substitute), or Yahweh (scholarly)",
+      "meaning": "He Who Was, Is, and Will Be; the Tetragrammaton",
+      "value": 26,
+      "calculation": "י(10)+ה(5)+ו(6)+ה(5) = 26",
+      "mathematical": {
+        "factored": "26 = 2 × 13",
+        "thirteen": "13 = AHAVAH (love) = ECHAD (one)",
+        "two_loves": "26 = 2 × LOVE = 2 × UNITY",
+        "english": "26 = GOD in English ordinal — cross-language resonance",
+        "structure": "YH=15 (short form Yah, Ps. 68:5); YH+VH=15+11=26"
+      }
+    },
+    {
+      "hebrew": "אדני",
+      "transliteration": "Adonai",
+      "meaning": "My Lord",
+      "value": 65,
+      "calculation": "א(1)+ד(4)+נ(50)+י(10) = 65",
+      "mathematical": {
+        "note": "65 = 5 × 13; 5 × LOVE = Adonai"
+      }
+    },
+    {
+      "hebrew": "אלהים",
+      "transliteration": "Elohim",
+      "meaning": "God (plural of majesty); forces of creation",
+      "value": 86,
+      "calculation": "א(1)+ל(30)+ה(5)+י(10)+מ(40) = 86",
+      "mathematical": {
+        "factored": "86 = 2 × 43",
+        "note": "Elohim is used in Genesis for the creative force; YHWH used for personal divine relationship"
+      }
+    },
+    {
+      "hebrew": "אל",
+      "transliteration": "El",
+      "meaning": "God (simple form)",
+      "value": 31,
+      "calculation": "א(1)+ל(30) = 31",
+      "mathematical": {
+        "prime": true,
+        "note": "31 is prime; 31 appears in Keter (620 = 20×31) and in Agape (93 = 3×31)"
+      }
+    },
+    {
+      "hebrew": "שדי",
+      "transliteration": "Shaddai",
+      "meaning": "God Almighty / El Shaddai",
+      "value": 314,
+      "calculation": "ש(300)+ד(4)+י(10) = 314",
+      "mathematical": {
+        "note": "314 ≈ π × 100 = 314.159... — a stunning near-match to 100π",
+        "significance": "Shaddai is traditionally written on mezuzot; its near-π value is noted in gematria studies"
+      }
+    },
+    {
+      "hebrew": "צבאות",
+      "transliteration": "Tzvaot",
+      "meaning": "Hosts/Armies (of heaven)",
+      "value": 499,
+      "calculation": "צ(90)+ב(2)+א(1)+ו(6)+ת(400) = 499",
+      "mathematical": {
+        "prime": true,
+        "note": "499 is prime; Tzvaot appears as YHWH Tzvaot and Elohim Tzvaot (sefirot 7 and 8)"
+      }
+    }
+  ]
+}

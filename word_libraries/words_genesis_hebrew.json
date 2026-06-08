@@ -1,0 +1,139 @@
+{
+  "source": "Genesis 1:1",
+  "hebrew_text": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+  "transliteration": "Bereishit bara Elohim et hashamayim ve'et ha'aretz",
+  "translation": "In the beginning God created the heavens and the earth.",
+  "sum_all_words": 2701,
+  "mathematical_properties": {
+    "2701": "37 × 73 (both prime) = T_73 (triangular number T_73 = 73×74/2 = 2701)",
+    "37_and_73": "37 and 73 are both prime; together they encode the verse as a triangular number"
+  },
+  "words": [
+    {
+      "position": 1,
+      "hebrew": "בְּרֵאשִׁית",
+      "transliteration": "Bereishit",
+      "meaning": "In the beginning",
+      "letters": [
+        { "letter": "ב", "name": "Bet",    "standard": 2   },
+        { "letter": "ר", "name": "Resh",   "standard": 200 },
+        { "letter": "א", "name": "Alef",   "standard": 1   },
+        { "letter": "ש", "name": "Shin",   "standard": 300 },
+        { "letter": "י", "name": "Yod",    "standard": 10  },
+        { "letter": "ת", "name": "Tav",    "standard": 400 }
+      ],
+      "values": {
+        "standard": 913,
+        "ordinal": 52,
+        "reduced": 4,
+        "note": "913 = 11×83; Day 1 harmonic"
+      }
+    },
+    {
+      "position": 2,
+      "hebrew": "בָּרָא",
+      "transliteration": "Bara",
+      "meaning": "created",
+      "letters": [
+        { "letter": "ב", "name": "Bet",  "standard": 2   },
+        { "letter": "ר", "name": "Resh", "standard": 200 },
+        { "letter": "א", "name": "Alef", "standard": 1   }
+      ],
+      "values": {
+        "standard": 203,
+        "ordinal": 22,
+        "reduced": 5,
+        "note": "203 = 7×29; creation action"
+      }
+    },
+    {
+      "position": 3,
+      "hebrew": "אֱלֹהִים",
+      "transliteration": "Elohim",
+      "meaning": "God (plural of majesty)",
+      "letters": [
+        { "letter": "א", "name": "Alef",   "standard": 1  },
+        { "letter": "ל", "name": "Lamed",  "standard": 30 },
+        { "letter": "ה", "name": "Heh",    "standard": 5  },
+        { "letter": "י", "name": "Yod",    "standard": 10 },
+        { "letter": "מ", "name": "Mem",    "standard": 40 }
+      ],
+      "values": {
+        "standard": 86,
+        "ordinal": 41,
+        "reduced": 5,
+        "note": "86 = 2×43; lowest word value in Genesis 1:1"
+      }
+    },
+    {
+      "position": 4,
+      "hebrew": "אֵת",
+      "transliteration": "Et",
+      "meaning": "(direct object marker, untranslated)",
+      "letters": [
+        { "letter": "א", "name": "Alef", "standard": 1   },
+        { "letter": "ת", "name": "Tav",  "standard": 400 }
+      ],
+      "values": {
+        "standard": 401,
+        "ordinal": 23,
+        "reduced": 5,
+        "note": "401 is prime; alef-tav = first+last letter = beginning+end = Alpha/Omega"
+      }
+    },
+    {
+      "position": 5,
+      "hebrew": "הַשָּׁמַיִם",
+      "transliteration": "HaShamayim",
+      "meaning": "the heavens",
+      "letters": [
+        { "letter": "ה", "name": "Heh",   "standard": 5   },
+        { "letter": "ש", "name": "Shin",  "standard": 300 },
+        { "letter": "מ", "name": "Mem",   "standard": 40  },
+        { "letter": "י", "name": "Yod",   "standard": 10  },
+        { "letter": "מ", "name": "Mem",   "standard": 40  }
+      ],
+      "values": {
+        "standard": 395,
+        "ordinal": 63,
+        "reduced": 8,
+        "note": "395 = 5×79; the celestial above"
+      }
+    },
+    {
+      "position": 6,
+      "hebrew": "וְאֵת",
+      "transliteration": "VeEt",
+      "meaning": "and the",
+      "letters": [
+        { "letter": "ו", "name": "Vav",  "standard": 6   },
+        { "letter": "א", "name": "Alef", "standard": 1   },
+        { "letter": "ת", "name": "Tav",  "standard": 400 }
+      ],
+      "values": {
+        "standard": 407,
+        "ordinal": 29,
+        "reduced": 2,
+        "note": "407 = 11×37; connective tissue between heaven and earth"
+      }
+    },
+    {
+      "position": 7,
+      "hebrew": "הָאָרֶץ",
+      "transliteration": "HaAretz",
+      "meaning": "the earth",
+      "letters": [
+        { "letter": "ה", "name": "Heh",   "standard": 5   },
+        { "letter": "א", "name": "Alef",  "standard": 1   },
+        { "letter": "ר", "name": "Resh",  "standard": 200 },
+        { "letter": "צ", "name": "Tzadi", "standard": 90  }
+      ],
+      "values": {
+        "standard": 296,
+        "ordinal": 44,
+        "reduced": 8,
+        "note": "296 = 8×37; earth ground frequency; 37 appears again!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Logarithmic Frequency Mapping",
+  "description": "Applies a logarithmic scale to gematria values before mapping to frequency. This compresses the wide value range (1-1480+) into a perceptually uniform scale, similar to how pitch (logarithmic) relates to frequency (linear). Useful when comparing values across different systems with very different ranges.",
+  "formula": "log_freq = log(value + 1) / log(max_value + 1)",
+  "rationale": "Hebrew values range 1-400 per letter; Greek up to 800; words can reach 2000+. Linear mapping would crush small values into a tiny zone. Log mapping spreads them evenly.",
+  "scales": [
+    {
+      "name": "hebrew_log",
+      "base": 10,
+      "min_value": 1,
+      "max_value": 1500,
+      "formula": "freq = log10(value) / log10(1500)",
+      "sample_mappings": [
+        { "word": "AHAVAH",   "value": 13,   "log_freq": 0.304 },
+        { "word": "YHWH",     "value": 26,   "log_freq": 0.403 },
+        { "word": "ELOHIM",   "value": 86,   "log_freq": 0.579 },
+        { "word": "EMET",     "value": 441,  "log_freq": 0.827 },
+        { "word": "SHALOM",   "value": 376,  "log_freq": 0.808 },
+        { "word": "BEREISHIT","value": 913,  "log_freq": 0.928 }
+      ]
+    },
+    {
+      "name": "cross_system_log",
+      "base": 2,
+      "min_value": 1,
+      "max_value": 2048,
+      "formula": "freq = log2(value) / 11",
+      "note": "Max = 2^11 = 2048 — 11 octaves of gematria space",
+      "sample_mappings": [
+        { "word": "AHAVAH",   "value": 13,   "log_freq": 0.337, "octave": 4 },
+        { "word": "YHWH",     "value": 26,   "log_freq": 0.425, "octave": 5 },
+        { "word": "LOGOS",    "value": 373,  "log_freq": 0.769, "octave": 8 },
+        { "word": "ICHTHYS",  "value": 1224, "log_freq": 0.955, "octave": 10 },
+        { "word": "CHRISTOS", "value": 1480, "log_freq": 0.974, "octave": 10 }
+      ]
+    }
+  ],
+  "octave_structure": {
+    "octave_1": [1, 2],
+    "octave_2": [2, 4],
+    "octave_3": [4, 8],
+    "octave_4": [8, 16],
+    "octave_5": [16, 32],
+    "octave_6": [32, 64],
+    "octave_7": [64, 128],
+    "octave_8": [128, 256],
+    "octave_9": [256, 512],
+    "octave_10": [512, 1024],
+    "octave_11": [1024, 2048],
+    "note": "Most Hebrew letter values (1-400) span octaves 1-9; Greek spans 1-11"
+  }
+}

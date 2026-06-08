@@ -1,0 +1,44 @@
+{
+  "system": "Hebrew Standard Gematria",
+  "name_hebrew": "מספר הכרחי",
+  "name_transliterated": "Mispar Hechrechi",
+  "description": "The classical Hebrew gematria system assigning the traditional numerical values to each of the 22 letters of the Hebrew alphabet. Values follow three tiers: units (1-9), tens (10-90), hundreds (100-400). Codified in Talmudic sources and referenced extensively in Kabbalistic literature.",
+  "references": [
+    "Ginsburg, C.D. (1863). The Kabbalah. London: Longmans Green.",
+    "Scholem, G. (1960). On the Kabbalah and Its Symbolism. New York: Schocken.",
+    "Kaplan, A. (1990). Sefer Yetzirah: The Book of Creation. Weiser."
+  ],
+  "letters": [
+    { "position": 1,  "hebrew": "א", "name": "Alef",   "transliteration": "A",  "value": 1,   "final_value": null,  "tier": "units" },
+    { "position": 2,  "hebrew": "ב", "name": "Bet",    "transliteration": "B",  "value": 2,   "final_value": null,  "tier": "units" },
+    { "position": 3,  "hebrew": "ג", "name": "Gimel",  "transliteration": "G",  "value": 3,   "final_value": null,  "tier": "units" },
+    { "position": 4,  "hebrew": "ד", "name": "Dalet",  "transliteration": "D",  "value": 4,   "final_value": null,  "tier": "units" },
+    { "position": 5,  "hebrew": "ה", "name": "Heh",    "transliteration": "H",  "value": 5,   "final_value": null,  "tier": "units" },
+    { "position": 6,  "hebrew": "ו", "name": "Vav",    "transliteration": "V/W","value": 6,   "final_value": null,  "tier": "units" },
+    { "position": 7,  "hebrew": "ז", "name": "Zayin",  "transliteration": "Z",  "value": 7,   "final_value": null,  "tier": "units" },
+    { "position": 8,  "hebrew": "ח", "name": "Chet",   "transliteration": "Ch", "value": 8,   "final_value": null,  "tier": "units" },
+    { "position": 9,  "hebrew": "ט", "name": "Tet",    "transliteration": "T",  "value": 9,   "final_value": null,  "tier": "units" },
+    { "position": 10, "hebrew": "י", "name": "Yod",    "transliteration": "Y",  "value": 10,  "final_value": null,  "tier": "tens" },
+    { "position": 11, "hebrew": "כ", "name": "Kaf",    "transliteration": "K",  "value": 20,  "final_value": 500,   "tier": "tens" },
+    { "position": 12, "hebrew": "ל", "name": "Lamed",  "transliteration": "L",  "value": 30,  "final_value": null,  "tier": "tens" },
+    { "position": 13, "hebrew": "מ", "name": "Mem",    "transliteration": "M",  "value": 40,  "final_value": 600,   "tier": "tens" },
+    { "position": 14, "hebrew": "נ", "name": "Nun",    "transliteration": "N",  "value": 50,  "final_value": 700,   "tier": "tens" },
+    { "position": 15, "hebrew": "ס", "name": "Samech", "transliteration": "S",  "value": 60,  "final_value": null,  "tier": "tens" },
+    { "position": 16, "hebrew": "ע", "name": "Ayin",   "transliteration": "A/O","value": 70,  "final_value": null,  "tier": "tens" },
+    { "position": 17, "hebrew": "פ", "name": "Peh",    "transliteration": "P/F","value": 80,  "final_value": 800,   "tier": "tens" },
+    { "position": 18, "hebrew": "צ", "name": "Tzadi",  "transliteration": "Tz", "value": 90,  "final_value": 900,   "tier": "tens" },
+    { "position": 19, "hebrew": "ק", "name": "Kof",    "transliteration": "Q",  "value": 100, "final_value": null,  "tier": "hundreds" },
+    { "position": 20, "hebrew": "ר", "name": "Resh",   "transliteration": "R",  "value": 200, "final_value": null,  "tier": "hundreds" },
+    { "position": 21, "hebrew": "ש", "name": "Shin",   "transliteration": "Sh", "value": 300, "final_value": null,  "tier": "hundreds" },
+    { "position": 22, "hebrew": "ת", "name": "Tav",    "transliteration": "T",  "value": 400, "final_value": null,  "tier": "hundreds" }
+  ],
+  "notable_words": {
+    "YHWH":    { "hebrew": "יהוה", "value": 26,   "note": "= 2×13 = 2×AHAVAH; GOD in English ordinal" },
+    "ELOHIM":  { "hebrew": "אלהים","value": 86,   "note": "= 2×43; standard word for God" },
+    "AHAVAH":  { "hebrew": "אהבה", "value": 13,   "note": "love; = ECHAD (one); 2×AHAVAH = YHWH" },
+    "EMET":    { "hebrew": "אמת",  "value": 441,  "note": "truth; 441 = 21² = (3×7)²" },
+    "SHALOM":  { "hebrew": "שלום", "value": 376,  "note": "peace" },
+    "BEREISHIT":{ "hebrew": "בראשית","value": 913, "note": "In the beginning; Genesis 1:1 word 1" },
+    "GENESIS_SUM": { "value": 2701, "note": "Sum of all 7 words of Genesis 1:1; 2701 = 37×73 = T_73" }
+  }
+}

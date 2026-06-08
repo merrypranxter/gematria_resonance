@@ -1,0 +1,24 @@
+{
+  "title": "Genesis 1:1 — Seven-Word Resonance Field Configuration",
+  "description": "Configuration for the standing-wave resonance field of the seven words of Genesis 1:1. Each word acts as a frequency source; their interference creates the 'creation field.'",
+  "total_sum": 2701,
+  "mathematical": {
+    "2701": "37 × 73 = T_73 (73rd triangular number)",
+    "significance": "The sum of all 7 words is a perfect triangle — creation is structured as a triangle"
+  },
+  "words": [
+    { "index": 1, "word": "Bereishit", "value": 913,  "angle_deg": 0,   "color": "#FFFDE7", "day": 1 },
+    { "index": 2, "word": "Bara",      "value": 203,  "angle_deg": 51,  "color": "#E3F2FD", "day": 2 },
+    { "index": 3, "word": "Elohim",    "value": 86,   "angle_deg": 103, "color": "#E8F5E9", "day": 3 },
+    { "index": 4, "word": "Et",        "value": 401,  "angle_deg": 154, "color": "#FFF8E1", "day": 4 },
+    { "index": 5, "word": "HaShamayim","value": 395,  "angle_deg": 206, "color": "#F3E5F5", "day": 5 },
+    { "index": 6, "word": "VeEt",      "value": 407,  "angle_deg": 257, "color": "#FCE4EC", "day": 6 },
+    { "index": 7, "word": "HaAretz",   "value": 296,  "angle_deg": 309, "color": "#EFEBE9", "day": 7 }
+  ],
+  "field_radius": 0.38,
+  "animation": {
+    "type": "standing_waves",
+    "speed": 0.2,
+    "each_word_phase_offset": "i * TAU / 7"
+  }
+}

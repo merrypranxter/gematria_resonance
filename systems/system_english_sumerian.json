@@ -1,0 +1,24 @@
+{
+  "system": "English Sumerian Gematria",
+  "description": "Each letter's ordinal value (A=1..Z=26) is multiplied by 6. The factor of 6 connects this system to Sumerian/Babylonian sexagesimal (base-60) numeration. The multiplication by 6 also links to the 6-fold symmetry of hexagonal geometry, honeycombs, and the Star of David (6-pointed). MONEY=432 resonates with 432 Hz, the 'Verdi tuning' of A4 preferred by some musicologists.",
+  "formula": "sumerian(letter) = ordinal(letter) × 6",
+  "sexagesimal_connection": "6 × 60 = 360 degrees. 6 × 10 = 60 = Babylonian base. The full alphabet sum = 6 × (1+2+...+26) = 6 × 351 = 2106",
+  "letters": [
+    { "letter": "A", "value": 6   }, { "letter": "B", "value": 12  }, { "letter": "C", "value": 18  },
+    { "letter": "D", "value": 24  }, { "letter": "E", "value": 30  }, { "letter": "F", "value": 36  },
+    { "letter": "G", "value": 42  }, { "letter": "H", "value": 48  }, { "letter": "I", "value": 54  },
+    { "letter": "J", "value": 60  }, { "letter": "K", "value": 66  }, { "letter": "L", "value": 72  },
+    { "letter": "M", "value": 78  }, { "letter": "N", "value": 84  }, { "letter": "O", "value": 90  },
+    { "letter": "P", "value": 96  }, { "letter": "Q", "value": 102 }, { "letter": "R", "value": 108 },
+    { "letter": "S", "value": 114 }, { "letter": "T", "value": 120 }, { "letter": "U", "value": 126 },
+    { "letter": "V", "value": 132 }, { "letter": "W", "value": 138 }, { "letter": "X", "value": 144 },
+    { "letter": "Y", "value": 150 }, { "letter": "Z", "value": 156 }
+  ],
+  "notable_words": {
+    "MONEY":  { "value": 432, "note": "M(78)+O(90)+N(84)+E(30)+Y(150)=432; 432 Hz = Verdi tuning" },
+    "POWER":  { "value": 462, "note": "P(96)+O(90)+W(138)+E(30)+R(108)=462" },
+    "GOD":    { "value": 156, "note": "G(42)+O(90)+D(24)=156=6×26" },
+    "LOVE":   { "value": 324, "note": "L(72)+O(90)+V(132)+E(30)=324=18²=(6×3)²" },
+    "FEAR":   { "value": 180, "note": "F(36)+E(30)+A(6)+R(108)=180=6×30" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "system": "English Ordinal Gematria",
+  "description": "The standard English gematria system. Each letter A-Z receives its sequential position in the alphabet (1-26). Simple, direct, and the baseline for all other English systems.",
+  "letters": [
+    { "letter": "A", "value": 1  }, { "letter": "B", "value": 2  }, { "letter": "C", "value": 3  },
+    { "letter": "D", "value": 4  }, { "letter": "E", "value": 5  }, { "letter": "F", "value": 6  },
+    { "letter": "G", "value": 7  }, { "letter": "H", "value": 8  }, { "letter": "I", "value": 9  },
+    { "letter": "J", "value": 10 }, { "letter": "K", "value": 11 }, { "letter": "L", "value": 12 },
+    { "letter": "M", "value": 13 }, { "letter": "N", "value": 14 }, { "letter": "O", "value": 15 },
+    { "letter": "P", "value": 16 }, { "letter": "Q", "value": 17 }, { "letter": "R", "value": 18 },
+    { "letter": "S", "value": 19 }, { "letter": "T", "value": 20 }, { "letter": "U", "value": 21 },
+    { "letter": "V", "value": 22 }, { "letter": "W", "value": 23 }, { "letter": "X", "value": 24 },
+    { "letter": "Y", "value": 25 }, { "letter": "Z", "value": 26 }
+  ],
+  "notable_words": {
+    "GOD":    { "value": 26,  "note": "= YHWH in Hebrew standard! Cross-language resonance." },
+    "LOVE":   { "value": 54,  "note": "= 2×27 = 6×9; palindromic: ordinal = reverse" },
+    "JESUS":  { "value": 74,  "note": "74 = 2×37; 37 is prime" },
+    "CHRIST": { "value": 77,  "note": "77 = 7×11" },
+    "LIGHT":  { "value": 56,  "note": "56 = 8×7" },
+    "TRUTH":  { "value": 87,  "note": "87 = 3×29" },
+    "LIFE":   { "value": 32,  "note": "32 = 2⁵ = sefirot+paths" },
+    "DEATH":  { "value": 38,  "note": "LIFE(32) + DEATH(38) = 70 = Ayin value" },
+    "HOLY":   { "value": 60,  "note": "60 = Samech value in Hebrew" },
+    "SPIRIT": { "value": 91,  "note": "91 = T_13 = 7×13; 13=LOVE in Hebrew" }
+  }
+}

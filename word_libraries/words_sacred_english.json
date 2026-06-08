@@ -1,0 +1,56 @@
+{
+  "title": "Sacred English Words — Multi-System Gematria Values",
+  "systems": ["ordinal (A=1..Z=26)", "reduced (digital root)", "sumerian (×6)", "reverse (Z=1..A=26)"],
+  "words": [
+    {
+      "word": "GOD",
+      "ordinal": 26,   "reduced": 8,  "sumerian": 156, "reverse": 55,
+      "cross_language": { "hebrew_YHWH_standard": 26, "note": "GOD(ordinal) = YHWH(Hebrew standard) = 26 — cross-language resonance" }
+    },
+    {
+      "word": "LOVE",
+      "ordinal": 54,   "reduced": 9,  "sumerian": 324, "reverse": 54,
+      "note": "LOVE is a palindromic fixed point: ordinal = reverse = 54. Reduced = 9 = completion."
+    },
+    {
+      "word": "LIGHT",
+      "ordinal": 56,   "reduced": 2,  "sumerian": 336, "reverse": 64,
+      "note": "56 = 8×7; reverse 64 = 8² = 2⁶"
+    },
+    {
+      "word": "TRUTH",
+      "ordinal": 87,   "reduced": 6,  "sumerian": 522, "reverse": 81,
+      "note": "81 = 3⁴ = 9²; 87 = 3×29"
+    },
+    {
+      "word": "LIFE",
+      "ordinal": 32,   "reduced": 5,  "sumerian": 192, "reverse": 76,
+      "note": "32 = 2⁵ = paths of wisdom (Tree of Life); 192 = 3×64"
+    },
+    {
+      "word": "JESUS",
+      "ordinal": 74,   "reduced": 2,  "sumerian": 444, "reverse": 61,
+      "note": "74 and 61 are both prime; 444 = 4×111"
+    },
+    {
+      "word": "CHRIST",
+      "ordinal": 77,   "reduced": 5,  "sumerian": 462, "reverse": 85,
+      "note": "77 = 7×11; 462 = 6×77 = 2×3×7×11"
+    },
+    {
+      "word": "HOLY",
+      "ordinal": 60,   "reduced": 6,  "sumerian": 360, "reverse": 48,
+      "note": "60 = Samech value in Hebrew standard; 360 = circle degrees"
+    },
+    {
+      "word": "SPIRIT",
+      "ordinal": 91,   "reduced": 1,  "sumerian": 546, "reverse": 71,
+      "note": "91 = 7×13 = T_13; 71 is prime"
+    },
+    {
+      "word": "WORD",
+      "ordinal": 60,   "reduced": 6,  "sumerian": 360, "reverse": 48,
+      "note": "WORD = HOLY = 60 in ordinal — the Word is Holy. 360° full circle."
+    }
+  ]
+}

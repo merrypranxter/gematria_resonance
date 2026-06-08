@@ -1,0 +1,29 @@
+{
+  "system": "English Reverse Gematria",
+  "description": "Mirror of the ordinal system. Z=1, Y=2, ..., A=26. Every letter L satisfies: ordinal(L) + reverse(L) = 27. For any word: reverse_value + ordinal_value = 27 × word_length. The number 27 = 3³ is the 'mirror constant' of English gematria. Notable: LOVE has identical ordinal and reverse values (54 each) — making it a palindromic fixed point.",
+  "mirror_constant": 27,
+  "mirror_property": "ordinal(letter) + reverse(letter) = 27 for every letter",
+  "formula": "reverse(letter) = 27 - ordinal(letter)",
+  "letters": [
+    { "letter": "A", "ordinal": 1,  "reverse": 26 }, { "letter": "B", "ordinal": 2,  "reverse": 25 },
+    { "letter": "C", "ordinal": 3,  "reverse": 24 }, { "letter": "D", "ordinal": 4,  "reverse": 23 },
+    { "letter": "E", "ordinal": 5,  "reverse": 22 }, { "letter": "F", "ordinal": 6,  "reverse": 21 },
+    { "letter": "G", "ordinal": 7,  "reverse": 20 }, { "letter": "H", "ordinal": 8,  "reverse": 19 },
+    { "letter": "I", "ordinal": 9,  "reverse": 18 }, { "letter": "J", "ordinal": 10, "reverse": 17 },
+    { "letter": "K", "ordinal": 11, "reverse": 16 }, { "letter": "L", "ordinal": 12, "reverse": 15 },
+    { "letter": "M", "ordinal": 13, "reverse": 14 }, { "letter": "N", "ordinal": 14, "reverse": 13 },
+    { "letter": "O", "ordinal": 15, "reverse": 12 }, { "letter": "P", "ordinal": 16, "reverse": 11 },
+    { "letter": "Q", "ordinal": 17, "reverse": 10 }, { "letter": "R", "ordinal": 18, "reverse": 9  },
+    { "letter": "S", "ordinal": 19, "reverse": 8  }, { "letter": "T", "ordinal": 20, "reverse": 7  },
+    { "letter": "U", "ordinal": 21, "reverse": 6  }, { "letter": "V", "ordinal": 22, "reverse": 5  },
+    { "letter": "W", "ordinal": 23, "reverse": 4  }, { "letter": "X", "ordinal": 24, "reverse": 3  },
+    { "letter": "Y", "ordinal": 25, "reverse": 2  }, { "letter": "Z", "ordinal": 26, "reverse": 1  }
+  ],
+  "notable_words": {
+    "LOVE":   { "ordinal": 54, "reverse": 54, "note": "PALINDROMIC FIXED POINT. Ordinal = Reverse = 54." },
+    "GOD":    { "ordinal": 26, "reverse": 55, "note": "Sum = 81 = 3×27 = 3⁴" },
+    "DEATH":  { "ordinal": 38, "reverse": 97, "note": "97 is prime; sum = 135 = 5×27" },
+    "LIFE":   { "ordinal": 32, "reverse": 76, "note": "Sum = 108 = 4×27" },
+    "JESUS":  { "ordinal": 74, "reverse": 61, "note": "Both prime; 74+61=135=5×27; beat=|74-61|=13=AHAVAH" }
+  }
+}

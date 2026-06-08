@@ -1,0 +1,75 @@
+{
+  "title": "Word Pair Ratios — Gematria Harmonic Relationships",
+  "description": "Notable word pairs and their frequency ratios, revealing harmonic relationships across languages and traditions.",
+  "pairs": [
+    {
+      "word_a": "YHWH",    "value_a": 26,
+      "word_b": "ELOHIM",  "value_b": 86,
+      "ratio": 0.3023,
+      "simplified": "26:86 ≈ 3:10",
+      "interval_approx": "compound interval (minor 10th)",
+      "note": "The two primary names of God in Torah are in a 3:10 ratio"
+    },
+    {
+      "word_a": "LOGOS",   "value_a": 373,
+      "word_b": "ICHTHYS", "value_b": 1224,
+      "ratio": 0.3047,
+      "simplified": "373:1224 ≈ 3:10",
+      "interval_approx": "Same ratio as YHWH:ELOHIM! Cross-language resonance.",
+      "note": "Greek Word:Fish ≈ Hebrew YHWH:Elohim — profound parallel"
+    },
+    {
+      "word_a": "LOVE (EN ordinal)", "value_a": 54,
+      "word_b": "TRUTH (EN ordinal)","value_b": 87,
+      "ratio": 0.6207,
+      "simplified": "54:87 = 18:29",
+      "interval_approx": "between minor third and fourth"
+    },
+    {
+      "word_a": "AHAVAH",  "value_a": 13,
+      "word_b": "YHWH",    "value_b": 26,
+      "ratio": 0.5,
+      "simplified": "1:2",
+      "interval_approx": "Octave",
+      "note": "LOVE is the octave below YHWH. Two LOVES = one YHWH."
+    },
+    {
+      "word_a": "YHWH",    "value_a": 26,
+      "word_b": "GOD (EN)","value_b": 26,
+      "ratio": 1.0,
+      "simplified": "1:1",
+      "interval_approx": "Unison",
+      "note": "Perfect resonance — cross-language names are in UNISON"
+    },
+    {
+      "word_a": "ELOHIM",  "value_a": 86,
+      "word_b": "SHADDAI", "value_b": 314,
+      "ratio": 0.2739,
+      "simplified": "86:314 ≈ 2:7 (Heptagonal ratio)",
+      "interval_approx": "Near harmonic seventh"
+    },
+    {
+      "word_a": "HOD",     "value_a": 15,
+      "word_b": "YESOD",   "value_b": 80,
+      "ratio": 0.1875,
+      "simplified": "15:80 = 3:16",
+      "interval_approx": "Two octaves below minor seventh"
+    },
+    {
+      "word_a": "CHOCHMAH","value_a": 73,
+      "word_b": "BINAH",   "value_b": 67,
+      "ratio": 1.0896,
+      "simplified": "73:67 ≈ 73/67 (both prime)",
+      "interval_approx": "near major second (9:8=1.125)",
+      "note": "Wisdom and Understanding are nearly in unison — a minor second apart"
+    },
+    {
+      "word_a": "JESUS (EN)", "value_a": 74,
+      "word_b": "CHRIST (EN)","value_b": 77,
+      "ratio": 0.9610,
+      "simplified": "74:77",
+      "interval_approx": "near unison — very close",
+      "note": "Jesus and Christ nearly identical in frequency — almost pure resonance"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "system": "Hebrew Ordinal Gematria",
+  "name_hebrew": "מספר סידורי",
+  "name_transliterated": "Mispar Siduri",
+  "description": "Position-based Hebrew gematria. Each letter receives its sequential position in the 22-letter aleph-bet (1-22), rather than the traditional tier-based values. This compresses the value space: max letter = 22 (Tav), vs. 400 in standard. The ordinal system reveals structural patterns based on letter position rather than weight.",
+  "value_range": { "min": 1, "max": 22, "note": "Max word value = 22 × word_length" },
+  "special_property": "YHWH ordinal = 26 = YHWH standard. A unique symmetry point.",
+  "letters": [
+    { "position": 1,  "hebrew": "א", "name": "Alef",   "ordinal_value": 1  },
+    { "position": 2,  "hebrew": "ב", "name": "Bet",    "ordinal_value": 2  },
+    { "position": 3,  "hebrew": "ג", "name": "Gimel",  "ordinal_value": 3  },
+    { "position": 4,  "hebrew": "ד", "name": "Dalet",  "ordinal_value": 4  },
+    { "position": 5,  "hebrew": "ה", "name": "Heh",    "ordinal_value": 5  },
+    { "position": 6,  "hebrew": "ו", "name": "Vav",    "ordinal_value": 6  },
+    { "position": 7,  "hebrew": "ז", "name": "Zayin",  "ordinal_value": 7  },
+    { "position": 8,  "hebrew": "ח", "name": "Chet",   "ordinal_value": 8  },
+    { "position": 9,  "hebrew": "ט", "name": "Tet",    "ordinal_value": 9  },
+    { "position": 10, "hebrew": "י", "name": "Yod",    "ordinal_value": 10 },
+    { "position": 11, "hebrew": "כ", "name": "Kaf",    "ordinal_value": 11 },
+    { "position": 12, "hebrew": "ל", "name": "Lamed",  "ordinal_value": 12 },
+    { "position": 13, "hebrew": "מ", "name": "Mem",    "ordinal_value": 13 },
+    { "position": 14, "hebrew": "נ", "name": "Nun",    "ordinal_value": 14 },
+    { "position": 15, "hebrew": "ס", "name": "Samech", "ordinal_value": 15 },
+    { "position": 16, "hebrew": "ע", "name": "Ayin",   "ordinal_value": 16 },
+    { "position": 17, "hebrew": "פ", "name": "Peh",    "ordinal_value": 17 },
+    { "position": 18, "hebrew": "צ", "name": "Tzadi",  "ordinal_value": 18 },
+    { "position": 19, "hebrew": "ק", "name": "Kof",    "ordinal_value": 19 },
+    { "position": 20, "hebrew": "ר", "name": "Resh",   "ordinal_value": 20 },
+    { "position": 21, "hebrew": "ש", "name": "Shin",   "ordinal_value": 21 },
+    { "position": 22, "hebrew": "ת", "name": "Tav",    "ordinal_value": 22 }
+  ],
+  "notable_words": {
+    "YHWH":   { "hebrew": "יהוה", "ordinal": 26, "standard": 26, "note": "Ordinal = Standard! Unique symmetry" },
+    "TORAH":  { "hebrew": "תורה", "ordinal": 63, "note": "ת(22)+ו(6)+ר(20)+ה(5)=63" },
+    "SHABBAT":{ "hebrew": "שבת",  "ordinal": 45, "note": "ש(21)+ב(2)+ת(22)=45" },
+    "ADAM":   { "hebrew": "אדם",  "ordinal": 18, "note": "1+4+13=18; 18=Chai(life) in standard" }
+  }
+}

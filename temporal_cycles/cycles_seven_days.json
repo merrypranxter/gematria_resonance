@@ -1,0 +1,91 @@
+{
+  "title": "Seven-Day Creation Cycle — Temporal Frequencies",
+  "description": "The seven days of creation mapped to a harmonic series. Each day corresponds to a frequency that is a harmonic of the fundamental 7-day cycle. The 7th day (Shabbat) completes the cycle and represents the octave-like 'return to source.'",
+  "fundamental": {
+    "period": "7 days",
+    "frequency": 1,
+    "interpretation": "One complete creation cycle = 1 unit of time"
+  },
+  "days": [
+    {
+      "day": 1,
+      "name": "Light",
+      "hebrew": "אור",
+      "hebrew_value": 207,
+      "frequency": 1,
+      "harmonic": "fundamental",
+      "phase_deg": 0,
+      "color": "#FFFDE7",
+      "genesis": "Let there be light"
+    },
+    {
+      "day": 2,
+      "name": "Firmament",
+      "hebrew": "רקיע",
+      "hebrew_value": 380,
+      "frequency": 2,
+      "harmonic": "octave",
+      "phase_deg": 51.43,
+      "color": "#E3F2FD",
+      "genesis": "Let there be a firmament"
+    },
+    {
+      "day": 3,
+      "name": "Dry Land / Plants",
+      "hebrew": "יבשה",
+      "hebrew_value": 327,
+      "frequency": 3,
+      "harmonic": "fifth (2nd octave + 5th)",
+      "phase_deg": 102.86,
+      "color": "#E8F5E9",
+      "genesis": "Let dry land appear; let earth produce vegetation"
+    },
+    {
+      "day": 4,
+      "name": "Luminaries",
+      "hebrew": "מאורות",
+      "hebrew_value": 647,
+      "frequency": 4,
+      "harmonic": "double octave",
+      "phase_deg": 154.29,
+      "color": "#FFF8E1",
+      "genesis": "Let there be lights in the firmament"
+    },
+    {
+      "day": 5,
+      "name": "Sea Creatures / Birds",
+      "hebrew": "עוף ודגים",
+      "hebrew_value": 490,
+      "frequency": 5,
+      "harmonic": "major third (2 octaves + major third)",
+      "phase_deg": 205.71,
+      "color": "#E0F7FA",
+      "genesis": "Let waters teem with living creatures"
+    },
+    {
+      "day": 6,
+      "name": "Land Creatures / Man",
+      "hebrew": "אדם",
+      "hebrew_value": 45,
+      "frequency": 6,
+      "harmonic": "fifth (3rd octave zone)",
+      "phase_deg": 257.14,
+      "color": "#FBE9E7",
+      "genesis": "Let earth produce living creatures; Let us make man"
+    },
+    {
+      "day": 7,
+      "name": "Shabbat / Rest",
+      "hebrew": "שבת",
+      "hebrew_value": 702,
+      "frequency": 7,
+      "harmonic": "minor seventh (special: 7th harmonic)",
+      "phase_deg": 308.57,
+      "color": "#F3E5F5",
+      "genesis": "God rested on the seventh day — completion",
+      "special": "7th harmonic = blue note; 7 = completion in Hebrew numerology; Shabbat=702=27×26=27×YHWH"
+    }
+  ],
+  "sum_of_day_frequencies": 28,
+  "note": "1+2+3+4+5+6+7=28=T_7=perfect number"
+}

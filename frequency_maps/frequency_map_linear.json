@@ -1,0 +1,48 @@
+{
+  "title": "Linear Frequency Mapping",
+  "description": "Maps gematria word values directly to spatial frequencies via division by a scale factor. f = value / scale_factor. The choice of scale factor determines the visual density of the pattern.",
+  "formula": "frequency = value / scale_factor",
+  "scale_factors": [
+    {
+      "name": "tight",
+      "scale": 50,
+      "value_range": [1, 50],
+      "note": "For small values (1-50): YHWH=26, AHAVAH=13. Dense, close-packed rings."
+    },
+    {
+      "name": "medium_hebrew",
+      "scale": 200,
+      "value_range": [20, 200],
+      "note": "For mid-range Hebrew values: ELOHIM=86, SHALOM=376."
+    },
+    {
+      "name": "wide_hebrew",
+      "scale": 700,
+      "value_range": [100, 1000],
+      "note": "For large Hebrew values: BEREISHIT=913, SHEMA=815."
+    },
+    {
+      "name": "greek_standard",
+      "scale": 500,
+      "value_range": [1, 1500],
+      "note": "For Greek values: LOGOS=373, ICHTHYS=1224, CHRISTOS=1480."
+    },
+    {
+      "name": "english_ordinal",
+      "scale": 130,
+      "value_range": [1, 130],
+      "note": "For English ordinal (max 5-letter word ≈ 130): GOD=26, LOVE=54."
+    },
+    {
+      "name": "english_sumerian",
+      "scale": 800,
+      "value_range": [6, 800],
+      "note": "For English Sumerian: MONEY=432, POWER=462."
+    }
+  ],
+  "visual_interpretation": {
+    "high_frequency": "Fine, dense interference rings — complex, detailed patterns",
+    "low_frequency": "Broad, sparse rings — simple, majestic patterns",
+    "equal_values": "Two equal-value words produce identical spatial frequencies — perfect resonance"
+  }
+}

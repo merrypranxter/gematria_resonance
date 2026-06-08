@@ -1,0 +1,96 @@
+{
+  "title": "The Ten Sefirot — Hebrew Names, Values, Tree of Life Positions",
+  "system": "Mispar Hechrechi (Hebrew Standard)",
+  "tradition": "Kabbalistic tradition, as described in Sefer HaBahir and elaborated in the Zohar",
+  "references": [
+    "Scholem, G. (1960). On the Kabbalah and Its Symbolism. New York: Schocken.",
+    "Kaplan, A. (1997). Sefer Yetzirah. Weiser Books.",
+    "Matt, D.C. (2004). The Zohar: Pritzker Edition. Stanford University Press."
+  ],
+  "total_sefirot": 10,
+  "total_paths": 22,
+  "total_32": "10 + 22 = 32 = 2⁵ — the 32 Paths of Wisdom (Sefer Yetzirah)",
+  "sefirot": [
+    {
+      "number": 1, "hebrew": "כתר", "name": "Keter", "meaning": "Crown",
+      "value": 620, "calculation": "כ(20)+ת(400)+ר(200)",
+      "mathematical": "620 = 20×31; 31 = El (God); Keter = 20 × El",
+      "pillar": "middle", "world": "Atziluth (Emanation)",
+      "color": "white", "divine_name": "Ehyeh",
+      "position_normalized": { "x": 0.5, "y": 0.95 },
+      "sefer_yetzirah": "Path 1 — Crown of Creation"
+    },
+    {
+      "number": 2, "hebrew": "חכמה", "name": "Chochmah", "meaning": "Wisdom",
+      "value": 73, "calculation": "ח(8)+כ(20)+מ(40)+ה(5)",
+      "mathematical": "73 is prime; the 21st prime number",
+      "pillar": "right", "world": "Atziluth",
+      "color": "gray", "divine_name": "Yah",
+      "position_normalized": { "x": 0.2, "y": 0.78 }
+    },
+    {
+      "number": 3, "hebrew": "בינה", "name": "Binah", "meaning": "Understanding",
+      "value": 67, "calculation": "ב(2)+י(10)+נ(50)+ה(5)",
+      "mathematical": "67 is prime — the 19th prime",
+      "pillar": "left", "world": "Atziluth",
+      "color": "deep violet", "divine_name": "YHWH Elohim",
+      "position_normalized": { "x": 0.8, "y": 0.78 }
+    },
+    {
+      "number": 4, "hebrew": "חסד", "name": "Chesed", "meaning": "Lovingkindness/Mercy",
+      "value": 72, "calculation": "ח(8)+ס(60)+ד(4)",
+      "mathematical": "72 = 8×9; 72 Names of God in Kabbalistic tradition",
+      "pillar": "right", "world": "Beriah (Creation)",
+      "color": "blue", "divine_name": "El",
+      "position_normalized": { "x": 0.2, "y": 0.58 }
+    },
+    {
+      "number": 5, "hebrew": "גבורה", "name": "Gevurah", "meaning": "Strength/Judgment",
+      "value": 216, "calculation": "ג(3)+ב(2)+ו(6)+ר(200)+ה(5)",
+      "mathematical": "216 = 6³ = the cube number! Also = 6×36 = 6×6²",
+      "pillar": "left", "world": "Beriah",
+      "color": "red", "divine_name": "Elohim",
+      "position_normalized": { "x": 0.8, "y": 0.58 }
+    },
+    {
+      "number": 6, "hebrew": "תפארת", "name": "Tiferet", "meaning": "Beauty/Harmony",
+      "value": 1081, "calculation": "ת(400)+פ(80)+א(1)+ר(200)+ת(400)",
+      "mathematical": "1081 = 23×47; central sefirah, balance point",
+      "pillar": "middle", "world": "Beriah/Yetzirah",
+      "color": "gold/yellow", "divine_name": "YHWH",
+      "position_normalized": { "x": 0.5, "y": 0.44 }
+    },
+    {
+      "number": 7, "hebrew": "נצח", "name": "Netzach", "meaning": "Victory/Eternity",
+      "value": 148, "calculation": "נ(50)+צ(90)+ח(8)",
+      "mathematical": "148 = 4×37",
+      "pillar": "right", "world": "Yetzirah (Formation)",
+      "color": "green", "divine_name": "YHWH Tzvaot",
+      "position_normalized": { "x": 0.2, "y": 0.32 }
+    },
+    {
+      "number": 8, "hebrew": "הוד", "name": "Hod", "meaning": "Splendor/Majesty",
+      "value": 15, "calculation": "ה(5)+ו(6)+ד(4)",
+      "mathematical": "15 = T_5 = triangular number; 15 = YH (first two letters of YHWH)",
+      "pillar": "left", "world": "Yetzirah",
+      "color": "orange", "divine_name": "Elohim Tzvaot",
+      "position_normalized": { "x": 0.8, "y": 0.32 }
+    },
+    {
+      "number": 9, "hebrew": "יסוד", "name": "Yesod", "meaning": "Foundation",
+      "value": 80, "calculation": "י(10)+ס(60)+ו(6)+ד(4)",
+      "mathematical": "80 = 16×5 = 2⁴×5",
+      "pillar": "middle", "world": "Yetzirah",
+      "color": "violet/purple", "divine_name": "El Chai / Shaddai",
+      "position_normalized": { "x": 0.5, "y": 0.18 }
+    },
+    {
+      "number": 10, "hebrew": "מלכות", "name": "Malkuth", "meaning": "Kingdom",
+      "value": 496, "calculation": "מ(40)+ל(30)+כ(20)+ו(6)+ת(400)",
+      "mathematical": "496 = PERFECT NUMBER (= 1+2+4+8+16+31+62+124+248 = 496); also T_31",
+      "pillar": "middle", "world": "Assiah (Action)",
+      "color": "brown/earth", "divine_name": "Adonai / Shekhinah",
+      "position_normalized": { "x": 0.5, "y": 0.05 }
+    }
+  ]
+}

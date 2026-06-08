@@ -1,0 +1,42 @@
+{
+  "title": "Divine Names Resonance Field",
+  "description": "All six primary Hebrew divine names as simultaneous resonance sources. Their interference creates the 'divine name field' — the visual superposition of all names of God.",
+  "names": [
+    {
+      "name": "YHWH",    "hebrew": "יהוה", "value": 26,
+      "position": { "x": 0.0,  "y": 0.3 },
+      "color": "#FFD700", "role": "fundamental"
+    },
+    {
+      "name": "Adonai",  "hebrew": "אדני", "value": 65,
+      "position": { "x": 0.26, "y": 0.15 },
+      "color": "#C0C0C0", "role": "2nd harmonic zone"
+    },
+    {
+      "name": "Elohim",  "hebrew": "אלהים","value": 86,
+      "position": { "x": 0.26, "y": -0.15 },
+      "color": "#4CAF50", "role": "3rd harmonic zone"
+    },
+    {
+      "name": "El",      "hebrew": "אל",   "value": 31,
+      "position": { "x": 0.0, "y": -0.3 },
+      "color": "#9C27B0", "role": "sub-harmonic"
+    },
+    {
+      "name": "Shaddai", "hebrew": "שדי",  "value": 314,
+      "position": { "x": -0.26, "y": -0.15 },
+      "color": "#2196F3", "role": "π-resonance"
+    },
+    {
+      "name": "Tzvaot",  "hebrew": "צבאות","value": 499,
+      "position": { "x": -0.26, "y": 0.15 },
+      "color": "#F44336", "role": "prime resonance"
+    }
+  ],
+  "scale": 500,
+  "notable_interferences": [
+    { "pair": ["YHWH", "ELOHIM"],  "beat_freq_approx": 0.12, "note": "Main divine name beat" },
+    { "pair": ["El", "YHWH"],      "beat_freq_approx": 0.10, "note": "Compressed near-sub-harmonic" },
+    { "pair": ["Shaddai", "Pi×100"], "note": "Shaddai(314) ≈ 100π — the π resonance" }
+  ]
+}

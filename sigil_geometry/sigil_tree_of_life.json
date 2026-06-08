@@ -1,0 +1,49 @@
+{
+  "title": "Tree of Life — Sacred Geometry Data",
+  "description": "Complete geometric specification of the Kabbalistic Tree of Life: 10 sefirot nodes with normalized positions, 22 edge connections with their assigned Hebrew letter paths.",
+  "coordinate_system": "Normalized 0-1 range. (0.5, 0.95) = top (Keter); (0.5, 0.05) = bottom (Malkuth).",
+  "nodes": [
+    { "id": 0,  "name": "Keter",     "hebrew": "כתר",   "value": 620, "x": 0.50, "y": 0.95, "color": "#FFFFFF", "pillar": "middle" },
+    { "id": 1,  "name": "Chochmah",  "hebrew": "חכמה",  "value": 73,  "x": 0.20, "y": 0.78, "color": "#C0C0C0", "pillar": "right" },
+    { "id": 2,  "name": "Binah",     "hebrew": "בינה",  "value": 67,  "x": 0.80, "y": 0.78, "color": "#4B0082", "pillar": "left" },
+    { "id": 3,  "name": "Chesed",    "hebrew": "חסד",   "value": 72,  "x": 0.20, "y": 0.58, "color": "#1565C0", "pillar": "right" },
+    { "id": 4,  "name": "Gevurah",   "hebrew": "גבורה", "value": 216, "x": 0.80, "y": 0.58, "color": "#B71C1C", "pillar": "left" },
+    { "id": 5,  "name": "Tiferet",   "hebrew": "תפארת", "value": 1081,"x": 0.50, "y": 0.44, "color": "#FFD700", "pillar": "middle" },
+    { "id": 6,  "name": "Netzach",   "hebrew": "נצח",   "value": 148, "x": 0.20, "y": 0.32, "color": "#2E7D32", "pillar": "right" },
+    { "id": 7,  "name": "Hod",       "hebrew": "הוד",   "value": 15,  "x": 0.80, "y": 0.32, "color": "#E65100", "pillar": "left" },
+    { "id": 8,  "name": "Yesod",     "hebrew": "יסוד",  "value": 80,  "x": 0.50, "y": 0.18, "color": "#7B1FA2", "pillar": "middle" },
+    { "id": 9,  "name": "Malkuth",   "hebrew": "מלכות", "value": 496, "x": 0.50, "y": 0.05, "color": "#4E342E", "pillar": "middle" }
+  ],
+  "edges": [
+    { "from": 0, "to": 1, "letter": "א", "letter_name": "Alef",   "path_number": 11 },
+    { "from": 0, "to": 2, "letter": "ב", "letter_name": "Bet",    "path_number": 12 },
+    { "from": 0, "to": 5, "letter": "ג", "letter_name": "Gimel",  "path_number": 13 },
+    { "from": 1, "to": 2, "letter": "ד", "letter_name": "Dalet",  "path_number": 14 },
+    { "from": 1, "to": 3, "letter": "ה", "letter_name": "Heh",    "path_number": 15 },
+    { "from": 1, "to": 5, "letter": "ו", "letter_name": "Vav",    "path_number": 16 },
+    { "from": 2, "to": 4, "letter": "ז", "letter_name": "Zayin",  "path_number": 17 },
+    { "from": 2, "to": 5, "letter": "ח", "letter_name": "Chet",   "path_number": 18 },
+    { "from": 3, "to": 4, "letter": "ט", "letter_name": "Tet",    "path_number": 19 },
+    { "from": 3, "to": 5, "letter": "י", "letter_name": "Yod",    "path_number": 20 },
+    { "from": 3, "to": 6, "letter": "כ", "letter_name": "Kaf",    "path_number": 21 },
+    { "from": 4, "to": 5, "letter": "ל", "letter_name": "Lamed",  "path_number": 22 },
+    { "from": 4, "to": 7, "letter": "מ", "letter_name": "Mem",    "path_number": 23 },
+    { "from": 5, "to": 6, "letter": "נ", "letter_name": "Nun",    "path_number": 24 },
+    { "from": 5, "to": 7, "letter": "ס", "letter_name": "Samech", "path_number": 25 },
+    { "from": 5, "to": 8, "letter": "ע", "letter_name": "Ayin",   "path_number": 26 },
+    { "from": 5, "to": 9, "letter": "פ", "letter_name": "Peh",    "path_number": 27 },
+    { "from": 6, "to": 7, "letter": "צ", "letter_name": "Tzadi",  "path_number": 28 },
+    { "from": 6, "to": 8, "letter": "ק", "letter_name": "Kof",    "path_number": 29 },
+    { "from": 7, "to": 8, "letter": "ר", "letter_name": "Resh",   "path_number": 30 },
+    { "from": 8, "to": 9, "letter": "ש", "letter_name": "Shin",   "path_number": 31 },
+    { "from": 6, "to": 9, "letter": "ת", "letter_name": "Tav",    "path_number": 32 }
+  ],
+  "pillars": {
+    "right": "Pillar of Mercy (Chesed) — Chochmah, Chesed, Netzach",
+    "left":  "Pillar of Severity (Gevurah) — Binah, Gevurah, Hod",
+    "middle":"Pillar of Equilibrium — Keter, Tiferet, Yesod, Malkuth"
+  },
+  "middle_pillar_values": [620, 1081, 80, 496],
+  "middle_pillar_sum": 2277,
+  "all_sefirot_sum": 2573
+}

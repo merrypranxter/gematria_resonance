@@ -1,0 +1,27 @@
+{
+  "title": "Harmonic Series Frequency Mapping",
+  "description": "Maps a gematria word value to the nearest harmonic in a reference harmonic series. Like a musical tuning: the word 'snaps' to the nearest harmonic partial. This reveals which 'note' the word sounds in the harmonic scale.",
+  "formula": "harmonic_n = base_freq × n; snap_word_to_nearest_harmonic(value) = argmin_n |value/scale - base_freq × n|",
+  "harmonic_series": {
+    "base_frequency": 1.0,
+    "partials": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+    "note": "The natural harmonic series: fundamental + overtones. Amplitude falls as 1/n."
+  },
+  "word_mappings": [
+    { "word": "YHWH",      "value": 26,   "nearest_harmonic": 1, "scale": 26,  "ratio_to_fundamental": 1.000, "note": "YHWH IS the fundamental" },
+    { "word": "AHAVAH",    "value": 13,   "nearest_harmonic": 1, "scale": 13,  "ratio_to_fundamental": 0.500, "note": "LOVE = octave below YHWH" },
+    { "word": "ELOHIM",    "value": 86,   "nearest_harmonic": 3, "scale": 26,  "ratio_to_fundamental": 3.308, "note": "Near 3rd harmonic (perfect fifth above octave)" },
+    { "word": "EMET",      "value": 441,  "nearest_harmonic": 17,"scale": 26,  "ratio_to_fundamental": 16.96, "note": "Near 17th harmonic" },
+    { "word": "LOGOS",     "value": 373,  "nearest_harmonic": 1, "scale": 373, "ratio_to_fundamental": 1.000, "note": "LOGOS is its own fundamental (prime)" },
+    { "word": "ICHTHYS",   "value": 1224, "nearest_harmonic": 3, "scale": 373, "ratio_to_fundamental": 3.281, "note": "ICHTHYS ≈ 3rd harmonic of LOGOS (near perfect fifth)" },
+    { "word": "JESUS",     "value": 74,   "nearest_harmonic": 3, "scale": 26,  "ratio_to_fundamental": 2.846, "note": "Near 3rd harmonic of GOD" },
+    { "word": "CHRIST",    "value": 77,   "nearest_harmonic": 3, "scale": 26,  "ratio_to_fundamental": 2.962, "note": "Near 3rd harmonic; JESUS ≈ CHRIST in harmonic space" }
+  ],
+  "visual_interpretation": {
+    "harmonic_1": "Fundamental — the root frequency, central ring",
+    "harmonic_2": "Octave — doubled frequency, perfect doubling pattern",
+    "harmonic_3": "Fifth (2nd octave + 5th) — three-lobed interference",
+    "harmonic_4": "Fourth — four-lobed, quarternary symmetry",
+    "harmonic_5": "Major third — five-petaled flower"
+  }
+}

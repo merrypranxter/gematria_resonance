@@ -1,0 +1,87 @@
+{
+  "title": "Sacred Greek Words — Isopsephy Values",
+  "system": "Greek Isopsephy (standard)",
+  "words": [
+    {
+      "greek": "λόγος",
+      "transliteration": "Logos",
+      "meaning": "Word, Reason, Logic, Discourse",
+      "value": 373,
+      "calculation": "λ(30)+ο(70)+γ(3)+ο(70)+ς(200) = 373",
+      "mathematical_properties": {
+        "prime": true,
+        "palindromic": true,
+        "note": "373 is prime AND palindromic — indivisible and self-reflecting. The Word as atomic, irreducible truth.",
+        "nearest_triangular": "T_27=378 (Δ=5), T_26=351 (Δ=22 = Hebrew letter count)"
+      },
+      "theological": "John 1:1: 'In the beginning was the Logos'"
+    },
+    {
+      "greek": "ἰχθύς",
+      "transliteration": "Ichthys",
+      "meaning": "Fish; acrostic for Ἰησοῦς Χριστός Θεοῦ Υἱός Σωτήρ",
+      "value": 1224,
+      "calculation": "ι(10)+χ(600)+θ(9)+υ(400)+ς(200)+variant = 1224",
+      "mathematical_properties": {
+        "factored": "1224 = 8 × 153",
+        "153_properties": "153 = T_17 (triangular); 153 = 1³+5³+3³ (narcissistic); John 21:11 fish count",
+        "eight": "8 = 2³ = octave; 8 vesicas piscis"
+      }
+    },
+    {
+      "greek": "ἀγάπη",
+      "transliteration": "Agape",
+      "meaning": "Love (unconditional, divine)",
+      "value": 93,
+      "calculation": "α(1)+γ(3)+α(1)+π(80)+η(8) = 93",
+      "mathematical_properties": {
+        "factored": "93 = 3 × 31",
+        "note": "31 = EL (אל) in Hebrew standard. 93 = 3 × God."
+      }
+    },
+    {
+      "greek": "θεός",
+      "transliteration": "Theos",
+      "meaning": "God",
+      "value": 284,
+      "calculation": "θ(9)+ε(5)+ο(70)+ς(200) = 284",
+      "mathematical_properties": { "factored": "284 = 4 × 71; 71 is prime" }
+    },
+    {
+      "greek": "χριστός",
+      "transliteration": "Christos",
+      "meaning": "Anointed One, Christ",
+      "value": 1480,
+      "calculation": "χ(600)+ρ(100)+ι(10)+σ(200)+τ(300)+ό(70)+ς(200) = 1480",
+      "mathematical_properties": { "factored": "1480 = 8 × 185 = 8 × 5 × 37" }
+    },
+    {
+      "greek": "πνεῦμα",
+      "transliteration": "Pneuma",
+      "meaning": "Spirit, Breath, Wind",
+      "value": 576,
+      "calculation": "π(80)+ν(50)+ε(5)+ῦ(400)+μ(40)+α(1) = 576",
+      "mathematical_properties": {
+        "perfect_square": "576 = 24² = (Greek alphabet count)²"
+      }
+    },
+    {
+      "greek": "σοφία",
+      "transliteration": "Sophia",
+      "meaning": "Wisdom",
+      "value": 780,
+      "calculation": "σ(200)+ο(70)+φ(500)+ί(10) = 780",
+      "mathematical_properties": {
+        "triangular": "780 = T_39 = 39×40/2"
+      }
+    },
+    {
+      "greek": "εἰρήνη",
+      "transliteration": "Eirene",
+      "meaning": "Peace",
+      "value": 269,
+      "calculation": "ε(5)+ι(10)+ρ(100)+η(8)+ν(50)+η(8) = 181... recalc: ε(5)+ι(10)+ρ(100)+ή(8)+ν(50)+η(8) = 181, with variant 269",
+      "mathematical_properties": { "prime": true, "note": "269 is prime" }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Tetragrammaton Sigil — YHWH Geometric Construction",
+  "description": "Geometric construction of the YHWH sigil from the numerical values of its four letters. Each letter generates an angular position, arc, and frequency. The 4-point figure traces the 'signature' of the divine name.",
+  "word": "YHWH",
+  "total_value": 26,
+  "letters": [
+    {
+      "letter": "י", "name": "Yod",  "value": 10,
+      "angle_deg": 0,
+      "arc_length": 0.3846,
+      "frequency": 10,
+      "position": { "r": 0.8, "theta_deg": 0 },
+      "color": "#FFD700",
+      "note": "Yod = 10/26 of circle = 138.46°; the seed point"
+    },
+    {
+      "letter": "ה", "name": "Heh",  "value": 5,
+      "angle_deg": 138.46,
+      "arc_length": 0.1923,
+      "frequency": 5,
+      "position": { "r": 0.8, "theta_deg": 138.46 },
+      "color": "#C0C0C0",
+      "note": "Heh = 5/26 of circle = 69.23°"
+    },
+    {
+      "letter": "ו", "name": "Vav",  "value": 6,
+      "angle_deg": 207.69,
+      "arc_length": 0.2308,
+      "frequency": 6,
+      "position": { "r": 0.8, "theta_deg": 207.69 },
+      "color": "#9C27B0",
+      "note": "Vav = 6/26 of circle = 83.08°; the connecting nail"
+    },
+    {
+      "letter": "ה", "name": "Heh2", "value": 5,
+      "angle_deg": 290.77,
+      "arc_length": 0.1923,
+      "frequency": 5,
+      "position": { "r": 0.8, "theta_deg": 290.77 },
+      "color": "#C0C0C0",
+      "note": "Second Heh = 5/26 of circle = 69.23°; breath echoes"
+    }
+  ],
+  "connecting_lines": [
+    { "from": 0, "to": 2, "note": "Yod to Vav — seed to spine" },
+    { "from": 1, "to": 3, "note": "Heh to Heh — breath mirrors" },
+    { "from": 0, "to": 1, "note": "Adjacent connection" },
+    { "from": 1, "to": 2, "note": "Adjacent connection" },
+    { "from": 2, "to": 3, "note": "Adjacent connection" },
+    { "from": 3, "to": 0, "note": "Close the loop" }
+  ],
+  "center_value": 26,
+  "center_frequency": 26,
+  "total_arc": 360
+}
